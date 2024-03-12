@@ -63,9 +63,6 @@ namespace hesaplama_secim {
             case 3:
                 std::cout << "UZAY KORSANLARI" << "\n";
                 return std::make_unique<uzay_korsanlari_event>();
-            /*default:
-                std::cout << "Istenmeyen Durum (Random_fonksiyonu_kontrol_edilmeli)"<< "\n" ;
-                return nullptr;*/
         }
     }
 }
