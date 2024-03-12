@@ -1,0 +1,3 @@
+C:/Users/Enis/CLionProjects/Cosmic_Voyager_AdjunctLecturer/cmake-build-debug/CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir
+C:/Users/Enis/CLionProjects/Cosmic_Voyager_AdjunctLecturer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Enis/CLionProjects/Cosmic_Voyager_AdjunctLecturer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

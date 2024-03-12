@@ -1,0 +1,7 @@
+# ninja log v5
+3	1401	7318919512736075	CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/main.cpp.obj	8670d5decb8ea10d
+1	194	7319340901710329	build.ninja	611064dee953b0a1
+1401	1561	7318919514300175	Cosmic_Voyager_AdjunctLecturer.exe	537735b6d2198939
+46	2097	7318629911436862	CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/Gezegen_Event.cpp.obj	3044b478b4b1c6b7
+3	723	7318868765574222	CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/Uzay_Korsanlari_Event.cpp.obj	3e1c8300ad10a3e0
+28	2077	7318629911226842	CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/Asteroid_Event.cpp.obj	520a09aad1bfec02
