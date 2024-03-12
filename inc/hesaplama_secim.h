@@ -13,7 +13,66 @@
 #include "Gezegen_Event.h"
 #include "Uzay_Korsanlari_Event.h"
 #include "RandomNumberGenerator.h"
+std::string normal_gemi_resmi =
+    "           |                                                     \n"
+    "          / \\                                                       \n"
+    "         /   \\                                                           \n"
+    "        /_____\\                                                         \n"
+    "        | (_) |                                                            \n"
+    "        |     |                                                            \n"
+    "        | ETU |                                                             \n"
+    "        |  _  |                                                          \n"
+    "        | | | |                                                       \n"
+    "        | | | |                                                      \n"
+    "        | | | |                                                         \n"
+    "       /  | |  \\                                                              \n"
+    "      /   | |   \\                                                              \n"
+    "     /    | |    \\                                                             \n"
+    "    /_____|_|_____\\                                                   \n"
+    "         |(_)|                                                            \n"
+    "        /|||||\\                                                        \n"
+    "       //|||||\\\\  \n";
+    
+    std::string hizli_gemi_resmi =
+    "              /\\    |    /\\                                       \n"
+    "             /__\\  / \\  /__\\                                    \n"
+    "             |  | /   \\ |  |                                      \n"
+    "             |  |/_____\\|  |                                      \n"
+    "             |  || (_) ||  |                                       \n"
+    "             |  ||     ||  |                                       \n"
+    "             |  || ETU ||  |                                        \n"
+    "             |  ||_____||  |                                        \n"
+    "             |  /|  |  |\\  |                                        \n"
+    "             | / |  |  | \\ |                                        \n"
+    "             |/  |  |  |  \\|                                        \n"
+    "             /   |  |  |   \\                                        \n"
+    "            /    |  |  |    \\                                      \n"
+    "           /     |  |  |     \\                                      \n"
+    "          /______|__|__|______\\                                     \n"
+    "            |__| |(_)| |__|                                         \n"
+    "             |  /|||||\\  |                                          \n"
+    "             | //|||||\\\\ |                                         \n";
+    
 
+    std::string guclu_gemi_resmi =
+    "                                           |                              \n"
+    "                                          / \\                              \n"
+    "                                         /   \\                                \n"
+    "                                        /_____\\                                 \n"
+    "                                       /  | |  \\                                 \n"
+    "                                      /   | |   \\                                  \n"
+    "                                     /   /ETU\\   \\                                    \n"
+    "                                    /___/ | |_\\___\\                                  \n"
+    "                                    |  /  | |  \\  |                              \n"
+    "                                    | /   | |   \\ |                               \n"
+    "                                    |/    | |    \\|                                \n"
+    "                                    /     | |     \\                                      \n"
+    "                                   /      | |      \\                                        \n"
+    "                                  /       | |       \\                                        \n"
+    "                                 /________|_|________\\                                          \n"
+    "                                    |_____(_)_____|                                    \n"
+    "                                       /|||||\\                                  \n"
+    "                                      //|||||\\\\                       \n";
 namespace hesaplama_secim {
 
     void puan(IGemi & gemi){
@@ -31,18 +90,39 @@ namespace hesaplama_secim {
     std::unique_ptr<IGemi> gemi_secim() {
         while (true){
             int gemi_secimi{0};
-
+            std::cout << "           |                               /\\    |    /\\                                       |                              " << "\n";
+            std::cout << "          / \\                             /__\\  / \\  /__\\                                     / \\                              " << "\n";
+            std::cout << "         /   \\                            |  | /   \\ |  |                                    /   \\                                " << "\n";
+            std::cout << "        /_____\\                           |  |/_____\\|  |                                   /_____\\                                 " << "\n";
+            std::cout << "        | (_) |                           |  || (_) ||  |                                  /  | |  \\                                 " << "\n";
+            std::cout << "        |     |                           |  ||     ||  |                                 /   | |   \\                                  " << "\n";
+            std::cout << "        | ETU |                           |  || ETU ||  |                                /   /ETU\\   \\                                   " << "\n";
+            std::cout << "        |  _  |                           |  ||_____||  |                               /___/ | |_\\___\\                                  " << "\n";
+            std::cout << "        | | | |                           |  /|  |  |\\  |                               |  /  | |  \\  |                              " << "\n";
+            std::cout << "        | | | |                           | / |  |  | \\ |                               | /   | |   \\ |                               " << "\n";
+            std::cout << "        | | | |                           |/  |  |  |  \\|                               |/    | |    \\|                                " << "\n";
+            std::cout << "       /  | |  \\                          /   |  |  |   \\                               /     | |     \\                                      " << "\n";
+            std::cout << "      /   | |   \\                        /    |  |  |    \\                             /      | |      \\                                        " << "\n";
+            std::cout << "     /    | |    \\                      /     |  |  |     \\                           /       | |       \\                                        " << "\n";
+            std::cout << "    /_____|_|_____\\                    /______|__|__|______\\                         /________|_|________\\                                         " << "\n";
+            std::cout << "         |(_)|                            |__| |(_)| |__|                               |_____(_)_____|                                    " << "\n";
+            std::cout << "        /|||||\\                            |  /|||||\\  |                                    /|||||\\                                  " << "\n";
+            std::cout << "       //|||||\\\\                           | //|||||\\\\ |                                   //|||||\\\\                                   " << "\n\n";
+            std::cout << "      Normal Gemi                            Hizli Gemi                                    Guclu Gemi "<< "\n";
             std::cout << "Gemi Sec 1)GUCLU GEMI, 2)HIZLI GEMI, 3)NORMAL GEMI"<< "\n";
             std::cin  >> gemi_secimi ;
-
+            
             switch (gemi_secimi) {
                 case 1:
+                    std::cout << guclu_gemi_resmi;
                     std::cout << "Guclu Gemi Secildi" << "\n";
                     return std::make_unique<guclu_gemi>();
                 case 2:
+                    std::cout << hizli_gemi_resmi;
                     std::cout << "Hizli Gemi Secildi" << "\n";
                     return std::make_unique<hizli_gemi>();
                 case 3:
+                    std::cout << normal_gemi_resmi;
                     std::cout << "Normal Gemi Secildi" << "\n";
                     return std::make_unique<normal_gemi>();
                 default:
