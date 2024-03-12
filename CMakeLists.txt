@@ -7,4 +7,5 @@ include_directories(inc)
 add_executable(Cosmic_Voyager_AdjunctLecturer main.cpp
         src/Asteroid_Event.cpp
         src/Gezegen_Event.cpp
-        src/Uzay_Korsanlari_Event.cpp)
+        src/Uzay_Korsanlari_Event.cpp
+        inc/resimler.h)
