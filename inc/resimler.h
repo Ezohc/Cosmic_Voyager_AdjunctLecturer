@@ -30,8 +30,6 @@ namespace resimler {
             "       //|||||\\\\  \n";
 
 
-
-
    const std::string hizli_gemi_resmi =
             "              /\\    |    /\\                                       \n"
             "             /__\\  / \\  /__\\                                    \n"
