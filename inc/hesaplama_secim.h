@@ -32,7 +32,7 @@ class hesaplama_secim {
 
     std::unique_ptr<IGemi> gemi_secim();
 
-    std::unique_ptr<IEvent> event_secim();
+    const std::unique_ptr<IEvent> event_secim();//fonksiyonda deger degisikligi olmuyor sadece event donuyor o yuzden const kullandik
 
     private:
     const int gemi_yakit_puan_katsayi{5};
