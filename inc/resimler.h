@@ -7,7 +7,7 @@
 #include <iostream>
 //#include <string>
 namespace resimler {
-//burada hepsini const yaptık diger turlu multiple defination hatasi aliyorduk. Bu sekilde stringleri diger classlarda kullandigi yerlerde tanimlama yapilmadigini anlamis oldu compiler.
+//burada hepsini const yaptık diger turlu multiple defination hatasi aliyorduk. Bu sekilde stringleri diger classlarda kullandigimiz yerlerde tanimlama yapilmadigini anlamis oldu compiler.
 
     const std::string normal_gemi_resmi =
             "           |                                                     \n"
