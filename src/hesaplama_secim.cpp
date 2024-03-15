@@ -31,7 +31,7 @@ std::unique_ptr<IGemi> hesaplama_secim::gemi_secim() {
     }
 }
 
-const std::unique_ptr<IEvent> hesaplama_secim::event_secim() {
+ std::unique_ptr<IEvent> hesaplama_secim::event_secim() {
 
     switch (randomsayi() % event_sayisi + 1) {
         case 1:

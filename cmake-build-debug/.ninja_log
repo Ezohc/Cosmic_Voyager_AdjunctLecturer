@@ -17,3 +17,14 @@
 3	1108	7322452806122317	CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/main.cpp.obj	8670d5decb8ea10d
 23	1352	7322452808542422	CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/hesaplama_secim.cpp.obj	c86931b85d2ba356
 1352	1517	7322452810172228	Cosmic_Voyager_AdjunctLecturer.exe	1da7ad8b6157beee
+39	974	7322468599445732	CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/Uzay_Korsanlari_Event.cpp.obj	3e1c8300ad10a3e0
+14	1006	7322468599765764	CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/Asteroid_Event.cpp.obj	520a09aad1bfec02
+24	1069	7322468600395750	CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/Gezegen_Event.cpp.obj	3044b478b4b1c6b7
+3	1269	7322468602405802	CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/main.cpp.obj	8670d5decb8ea10d
+48	1278	7322468602485808	CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/game_run.cpp.obj	a60e9f74d3bef2a
+58	1508	7322468604766011	CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/hesaplama_secim.cpp.obj	c86931b85d2ba356
+1508	1680	7322468606465930	Cosmic_Voyager_AdjunctLecturer.exe	1da7ad8b6157beee
+4	1191	7322470734433379	CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/main.cpp.obj	8670d5decb8ea10d
+29	1198	7322470734513184	CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/game_run.cpp.obj	a60e9f74d3bef2a
+41	1451	7322470737033167	CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/hesaplama_secim.cpp.obj	c86931b85d2ba356
+1452	1622	7322470738723367	Cosmic_Voyager_AdjunctLecturer.exe	1da7ad8b6157beee

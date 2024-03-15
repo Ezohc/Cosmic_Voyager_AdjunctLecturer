@@ -22,17 +22,15 @@ class hesaplama_secim {
 
     public:
    inline void puan(const IGemi &gemi) const { // burada fantastik bir const kullanimi yaptik. const olabiliyor cunku ne geminin degerleri degisiyor ne de classin uye degerlerı degisiyor
-        int puan{0};
-        puan = ((gemi.yakit * gemi_yakit_puan_katsayi) + (gemi.saglik * gemi_saglik_puan_katsayi) + (gemi.para * gemi_para_puan_katsayi));
         std::cout << "SAGLIK: " << gemi.saglik << "\n";
         std::cout << "YAKIT: " << gemi.yakit << "\n";
         std::cout << "ALTIN: " << gemi.para << "\n";
-        std::cout <<"    KAZANILAN PUAN: " << puan << "\n";
+        std::cout <<"    KAZANILAN PUAN: " << ((gemi.yakit * gemi_yakit_puan_katsayi) + (gemi.saglik * gemi_saglik_puan_katsayi) + (gemi.para * gemi_para_puan_katsayi)) << "\n";
     }
 
     std::unique_ptr<IGemi> gemi_secim();
 
-    const std::unique_ptr<IEvent> event_secim();//fonksiyonda deger degisikligi olmuyor sadece event donuyor o yuzden const kullandik
+   std::unique_ptr<IEvent> event_secim();//fonksiyonda deger degisikligi olmuyor sadece event donuyor o yuzden const kullandik
 
     private:
     const int gemi_yakit_puan_katsayi{5};

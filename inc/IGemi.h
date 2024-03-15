@@ -12,7 +12,7 @@ class IGemi{
 
     IGemi() : saglik{100},para{0},yakit{100},kacma_ihtimali{5},alinan_hasar_kat{1} {}
 
-    int saglik;
+    double saglik;
     int para;
     int yakit;
     double kacma_ihtimali;
