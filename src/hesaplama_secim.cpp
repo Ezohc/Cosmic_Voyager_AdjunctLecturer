@@ -48,5 +48,8 @@ std::unique_ptr<IEvent> hesaplama_secim::event_secim() {
             std::cout << resimler::uzay_korsanlari_resmi << "\n";
             std::this_thread::sleep_for(std::chrono::seconds(1));
             return std::make_unique<uzay_korsanlari_event>();
+        default:
+            std::cout << "Rand fonk crash." << std::endl;
+            return std::make_unique<asteroid_event>();
     }
 }
