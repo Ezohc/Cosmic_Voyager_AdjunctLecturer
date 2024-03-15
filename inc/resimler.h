@@ -5,9 +5,11 @@
 #ifndef COSMIC_VOYAGER_ADJUNCTLECTURER_RESIMLER_H
 #define COSMIC_VOYAGER_ADJUNCTLECTURER_RESIMLER_H
 #include <iostream>
+//#include <string>
 namespace resimler {
+//burada hepsini const yaptık diger turlu multiple defination hatasi aliyorduk. Bu sekilde stringleri diger classlarda kullandigi yerlerde tanimlama yapilmadigini anlamis oldu compiler.
 
-    std::string normal_gemi_resmi =
+    const std::string normal_gemi_resmi =
             "           |                                                     \n"
             "          / \\                                                       \n"
             "         /   \\                                                           \n"
@@ -30,7 +32,7 @@ namespace resimler {
 
 
 
-    std::string hizli_gemi_resmi =
+   const std::string hizli_gemi_resmi =
             "              /\\    |    /\\                                       \n"
             "             /__\\  / \\  /__\\                                    \n"
             "             |  | /   \\ |  |                                      \n"
@@ -51,7 +53,7 @@ namespace resimler {
             "              | //|||||\\\\ |                                         \n";
 
 
-    std::string guclu_gemi_resmi =
+    const std::string guclu_gemi_resmi =
             "                       |                              \n"
             "                      / \\                              \n"
             "                     /   \\                                \n"
@@ -71,6 +73,42 @@ namespace resimler {
             "                    /|||||\\                                  \n"
             "                   //|||||\\\\                       \n";
 
+    const std::string  gezegen_resmi =
+    "                 *       +\n"
+    "           '                  |\n"
+    "       ()    .-.,=\"``\"=.    - o -\n"
+    "             '=/_       \\     |\n"
+    "          *   |  '=._    |\n"
+    "               \\     `=./`,        '\n"
+    "            .   '=.__.=' `='      *\n"
+    "   +                         +\n"
+    "        O      *        '       . \n";
+
+    const std::string  asteroid_resmi =
+    "   .       . \n"
+    " +  :      .\n"
+    "           :       _\n"
+    "       .   !   '  (_)\n"
+    "          ,|.' \n"
+    "-  -- ---(-O-`--- --  -\n"
+    "         ,`|'`.\n"
+    "       ,   !    .\n"
+    "           :       :  \" \n"
+    "           .     --+--\n"
+    " .:        .       !\n";
+
+   const std::string uzay_korsanlari_resmi =
+            "o\n"
+            " \\_/\\o\n"
+            "( Oo)                    \\|/\n"
+            "(_=-)  .===O-  ~~Z~A~P~~ -O-\n"
+            "/   \\_/U'                /|\\\n"
+            "||  |_/\n"
+            "\\\\  |\n"
+            "{K ||\n"
+            " | PP\n"
+            " | ||\n"
+            " (__\\\\\n";
 }
 
 #endif //COSMIC_VOYAGER_ADJUNCTLECTURER_RESIMLER_H

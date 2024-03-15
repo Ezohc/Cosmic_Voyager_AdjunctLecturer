@@ -77,6 +77,20 @@ build CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/Uzay_Korsanlari_Event.cp
   OBJECT_DIR = CMakeFiles\Cosmic_Voyager_AdjunctLecturer.dir
   OBJECT_FILE_DIR = CMakeFiles\Cosmic_Voyager_AdjunctLecturer.dir\src
 
+build CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/hesaplama_secim.cpp.obj: CXX_COMPILER__Cosmic_Voyager_AdjunctLecturer_unscanned_Debug C$:/Users/Enis/CLionProjects/Cosmic_Voyager_AdjunctLecturer/src/hesaplama_secim.cpp || cmake_object_order_depends_target_Cosmic_Voyager_AdjunctLecturer
+  DEP_FILE = CMakeFiles\Cosmic_Voyager_AdjunctLecturer.dir\src\hesaplama_secim.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Enis/CLionProjects/Cosmic_Voyager_AdjunctLecturer/inc
+  OBJECT_DIR = CMakeFiles\Cosmic_Voyager_AdjunctLecturer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Cosmic_Voyager_AdjunctLecturer.dir\src
+
+build CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/game_run.cpp.obj: CXX_COMPILER__Cosmic_Voyager_AdjunctLecturer_unscanned_Debug C$:/Users/Enis/CLionProjects/Cosmic_Voyager_AdjunctLecturer/src/game_run.cpp || cmake_object_order_depends_target_Cosmic_Voyager_AdjunctLecturer
+  DEP_FILE = CMakeFiles\Cosmic_Voyager_AdjunctLecturer.dir\src\game_run.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Enis/CLionProjects/Cosmic_Voyager_AdjunctLecturer/inc
+  OBJECT_DIR = CMakeFiles\Cosmic_Voyager_AdjunctLecturer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Cosmic_Voyager_AdjunctLecturer.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Cosmic_Voyager_AdjunctLecturer
@@ -85,7 +99,7 @@ build CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/Uzay_Korsanlari_Event.cp
 #############################################
 # Link the executable Cosmic_Voyager_AdjunctLecturer.exe
 
-build Cosmic_Voyager_AdjunctLecturer.exe: CXX_EXECUTABLE_LINKER__Cosmic_Voyager_AdjunctLecturer_Debug CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/main.cpp.obj CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/Asteroid_Event.cpp.obj CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/Gezegen_Event.cpp.obj CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/Uzay_Korsanlari_Event.cpp.obj
+build Cosmic_Voyager_AdjunctLecturer.exe: CXX_EXECUTABLE_LINKER__Cosmic_Voyager_AdjunctLecturer_Debug CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/main.cpp.obj CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/Asteroid_Event.cpp.obj CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/Gezegen_Event.cpp.obj CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/Uzay_Korsanlari_Event.cpp.obj CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/hesaplama_secim.cpp.obj CMakeFiles/Cosmic_Voyager_AdjunctLecturer.dir/src/game_run.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Cosmic_Voyager_AdjunctLecturer.dir

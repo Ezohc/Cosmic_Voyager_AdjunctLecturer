@@ -13,21 +13,21 @@
 #include "hesaplama_secim.h"
 #include "RandomNumberGenerator.h"
 
-namespace game_run {
+namespace Game {
 
-    void baslat(IGemi& secilen_Gemi){
-        int tur{0};
-        int eventsayisi{5};
-        while(secilen_Gemi.yakit > 0 && secilen_Gemi.saglik > 0 && tur < eventsayisi ){
-            std::cout << "EVENT " << (tur + 1) << " BASLIYOR"<<"\n";
-            std::this_thread::sleep_for(std::chrono::seconds(3));
-            std::unique_ptr<IEvent> random_event = hesaplama_secim::event_secim();
-            random_event->event(secilen_Gemi);
-            tur = tur + 1;
-            std::cout << "EVENT " << tur << " BITTI"<<"\n";
-            std::this_thread::sleep_for(std::chrono::seconds(3));
-        }
-    }
+    class Run {
+        public:
+
+            void baslat(IGemi& secilen_Gemi);
+
+        private:
+            int tur{0};
+            const int tur_artis_sayisi{1};
+            const int eventsayisi{5};
+            const int saglik_kosulu{0};
+            const int yakit_kosulu{0};
+    };
+
 
 }
 
