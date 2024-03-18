@@ -1,4 +1,4 @@
-# Cosmic_Voyoger_AdjunctLecturer
+# Cosmic_Voyager_AdjunctLecturer
 Enis Hacışevki 211201058
 
 Alperen Nakiboğlu 211201062
