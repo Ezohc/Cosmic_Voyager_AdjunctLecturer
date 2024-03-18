@@ -14,13 +14,8 @@ bir kod yapısı sağlamak için bir interface olan "Event" sınıfı ve base "G
 ekleyebileceğimiz şekilde değişkenlerimizi ve child classlarımızı tanımladık. Kod yazarken smart pointer kullanımına dikkat ettik ve sizin git projelerinizden
 yararlanarak bu yapıyı oluşturduk.
 
-Const correctness
-Magic number kullanmama
-İsimlendirmelerin mantıklı olması
-Smart Pointer Kullanımı
-Single Responsibility ye uyularak classların oluşturulması
-Memory Leak, Undefinied Behaviour olmaması
-Interface kullanılmış olması
+Const correctness, Magic number kullanmama, İsimlendirmelerin mantıklı olması, Smart Pointer Kullanımı, Single Responsibility ye uyularak classların oluşturulması
+Memory Leak, Undefinied Behaviour olmaması, Interface kullanılmış olması.
 
 Daha önce belirtilen bu kurallar çerçevesine olabildiğince uyulmaya çalışıldı.
 
